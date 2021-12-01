@@ -60,14 +60,14 @@
             <img src="img/logo3.png" class="logo">
             <h1>5th 미니세미나 완료</h1>
             <h3>10분동안 알아보는 차세대구축 배경과 방향</h3>
-            <h4>11월 03일(금) 4시 YouTube에서</h4>
+            <h4>12월 03일(금) 4시 YouTube에서</h4>
             <h4>강사 : 황태민 차장</h4>
             <a href="https://www.youtube.com/channel/UCrwYtTH8RnW8vC6bu0EAK7g" class="btn btn-lg btn-red">온라인으로 참석 <span class="ti-arrow-right"></span></a>
             <!-- <a href="https://www.notion.so/Modern-Dev-Trend-5fca876292ed43b7ac4fd94f9b998127" class="btn btn-lg btn-red">강의자료 보기 <span class="ti-arrow-right"></span></a> -->
             <!-- <a href="assets/note.pdf" class="btn btn-lg btn-red">강의자료 보기<small>(notion)</small> <span class="ti-arrow-right"></span></a> -->
             <!-- <a href="assets/note.pdf" class="btn btn-lg btn-red">강의자료 보기 <span class="ti-arrow-right"></span></a> -->
             <!-- <a href="assets/note_cicd.pdf" class="btn btn-lg btn-red">강의자료 보기 <span class="ti-arrow-right"></span></a> -->
-            <a class="btn btn-lg btn-red">강의자료 보기 <span class="ti-arrow-right"></span></a>
+            <a onclick="alertMsg ()" class="btn btn-lg btn-red">강의자료 보기 <span class="ti-arrow-right"></span></a>
           </div>
           <div class="col-md-5 hidden-xs">
             <img src="img/rocket.png" class="rocket animated bounce">
@@ -412,6 +412,11 @@
       <script src="js/jquery.easing.min.js"></script>
       <script src="js/scrolling-nav.js"></script>
       <script src="js/validator.js"></script>
-
+      <script>
+        function alertMsg ()
+        {
+          window.open("a.html","new","width=250,height=300")
+        }
+      </script>
     </body>
     </html>
